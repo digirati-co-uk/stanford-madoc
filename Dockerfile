@@ -8,3 +8,4 @@ ADD --chown=www-data:www-data ./stanford-madoc-theme /srv/omeka/themes/stanford-
 ADD --chown=www-data:www-data ./translations/s/ /srv/omeka/translations/s/
 
 # Add any other configuration needed.
+ADD ./config/php.ini  /etc/php.d/99-custom-php-config.ini
