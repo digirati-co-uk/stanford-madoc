@@ -90,7 +90,7 @@ services:
 
   example-search-indexer:
     container_name: example-search-indexer
-    image: digirati/madoc-indexer:${FOUNDA_INDEXER_VERSION:-a0b59d90bb8ab77d45fc158259bced784259acb8}
+    image: digirati/madoc-indexer:${FOUNDA_INDEXER_VERSION:-56e46a6c3d63505af9bc277ac1117ed40e4162c3}
     environment:
       - WORKERS=2
       - search_annotation_index=${FOUNDA_ANNOTATION_INDEX:-jane-annotations}
