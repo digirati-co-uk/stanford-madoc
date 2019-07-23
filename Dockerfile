@@ -1,5 +1,5 @@
 # This is a pre-release
-FROM digirati/madoc-platform:v1.2.x-6e5f3cf
+FROM digirati/madoc-platform:v1.2.x-6a8af1c
 
 # Add our theme
 ADD --chown=www-data:www-data ./stanford-madoc-theme /srv/omeka/themes/stanford-madoc-theme
